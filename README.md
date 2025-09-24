@@ -61,8 +61,9 @@ Ce repository est personnel mais les suggestions sont bienvenues :
 3. Suggérer de nouveaux sujets à couvrir
 4. Partager des ressources utiles
 
-## ✅ Todo (Par ordre d'importance)
+## ✅ Todo
 
+Par ordre d'importance:
 - [ ] Recursivité (dans notes/fonctions.md)
 - [ ] Programmation Conditionnelle (notes/condition.md)
 - [ ] Types (notes/types.md)
