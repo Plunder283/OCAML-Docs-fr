@@ -57,9 +57,10 @@ sudo apt install ocaml
 Ce repository est personnel mais les suggestions sont bienvenues :
 
 1. Signaler des erreurs dans les notes
-2. Proposer des améliorations d'exemples
-3. Suggérer de nouveaux sujets à couvrir
-4. Partager des ressources utiles
+2. Faire une pull request ou m'envoyer des notes à rajouter
+3. Proposer des améliorations d'exemples
+4. Suggérer de nouveaux sujets à couvrir
+5. Partager des ressources utiles
 
 ## ✅ Todo
 
