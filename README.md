@@ -63,11 +63,11 @@ Ce repository est personnel mais les suggestions sont bienvenues :
 
 ## ✅ Todo (Par ordre d'importance)
 
-- [] Recursivité (dans notes/fonctions.md)
-- [] Programmation Conditionnelle (notes/condition.md)
-- [] Types (notes/types.md)
-- [] Rajouter dans un dossier des Algos pratiques
-- [] Rediger des cours complets dans le dossier cours
+- [ ] Recursivité (dans notes/fonctions.md)
+- [ ] Programmation Conditionnelle (notes/condition.md)
+- [ ] Types (notes/types.md)
+- [ ] Rajouter dans un dossier des Algos pratiques
+- [ ] Rediger des cours complets dans le dossier cours
  
 ## 🔗 Liens Utiles
 
