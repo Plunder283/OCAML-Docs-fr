@@ -61,6 +61,14 @@ Ce repository est personnel mais les suggestions sont bienvenues :
 3. Suggérer de nouveaux sujets à couvrir
 4. Partager des ressources utiles
 
+## ✅ Todo (Par ordre d'importance)
+
+- [] Recursivité (dans notes/fonctions.md)
+- [] Programmation Conditionnelle (notes/condition.md)
+- [] Types (notes/types.md)
+- [] Rajouter dans un dossier des Algos pratiques
+- [] Rediger des cours complets dans le dossier cours
+ 
 ## 🔗 Liens Utiles
 
 - [OCaml Official Website](https://ocaml.org/)
@@ -72,6 +80,6 @@ Ce repository est personnel mais les suggestions sont bienvenues :
 - [r/ocaml](https://www.reddit.com/r/ocaml/)
 ---
 
-*Dernière mise à jour : 23 Septembre 2025*
+*Dernière mise à jour : 24 Septembre 2025*
 
 **Happy Coding with OCaml! 🐪✨**
