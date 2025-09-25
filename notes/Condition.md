@@ -1,8 +1,41 @@
 #Programmation #Epita #OCAML 
 
+# 1. If/Else - Structure conditionnelle de base
+
+La structure `if/else` permet d'exécuter du code selon qu'une condition soit vraie ou fausse.
+
+# Syntaxe de base :
+```ocaml
+if condition then
+	(* code si vrai *)
+else if condition then
+	(* code si autre condition vraie*)
+else
+	(* code si toutes les conditions sont fausses*)
+```
+
+⚠️ **Important** : En OCAML, le `if` est une expression qui doit toujours retourner une valeur. Les deux branches (`then` et `else`) doivent avoir le même type.
+## Exemples pratiques :
+```ocaml
+let is_positive x = 
+  if x > 0 then 
+    true 
+  else 
+    false;;
+
+let describe_number x =
+  if x > 0 then
+    "positif"
+  else if x < 0 then
+    "négatif"  
+  else
+    "zéro";;
+```
+# 2. Match Case
+
 Le match case est une alternative au `if else` qui permet de gérer facilement la logique de notre programme en gérant de façon exhaustive toutes les issues possible à une condition.
 
-Dans un match case les conditions sont exécutée de manière linéaire donc on effectue le premier test, puis le deuxième et ainsi de suite...
+Dans un `match`, les conditions sont testées séquentiellement : on effectue le premier test, puis le deuxième, et ainsi de suite jusqu'à trouver une correspondance.
 
 Il est possible de faire des match case en OCAML comme ceci :
 
@@ -51,4 +84,10 @@ Si on traduit ces lignes on obtient quelque chose comme : "Si x = 0 alors return
 
 Lorsqu'une variable est utilisée comme ceci elle prends la valeur de la variable passée dans le match (dans notre cas y = x).
 Si on avait pas mis le mot clé `when` mais simplement `y -> false` la condition serait toujours exécutée.
+
+## Default Case :
+```ocaml
+| _ -> true;; (*Cas par défaut (équivalent à un else)*)
+```
+Dans un `match` le underscore correspond au cas par défaut, c'est à dire que peut importe la valeur à comparer
 # Warning
